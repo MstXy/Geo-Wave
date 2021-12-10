@@ -17,6 +17,7 @@ The overall inspiration is from the fact that p5.js has a complete geometry syst
 
 ### Tools & Design
 First Sketch: 
+![first_sketch](doc/draft.png)
 
 
 ### Design
