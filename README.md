@@ -19,8 +19,12 @@ The overall inspiration is from the fact that p5.js has a complete geometry syst
 First Sketch: 
 ![first_sketch](doc/draft.jpg)
 The first sketch basically layout the elements of this project, without much viability concerns. So when I am actually implementing the draft into code, there are various issues. First issue is the transformation of individual geometric shapes. Because p5.js does not do things like automatic transition, so changing one shape into another would require a lot of careful decisions. The finally design ends up with three classes: Pattern - Geo - Vertex
+
 ![pattern_code](doc/pattern_code.png)
 
+With Pattern being the class for the whole pattern and Geo being the individual geometries and Vertex being the points in each geometry shape. To achieve the smooth transition, I write an update function for the Vertex class, where in each draw loop the vertex will move towards the destination by a bit. A state of true/false is also returned in order to stop the transition once destination is reached. The confusion here is that the draw() function in p5.js is called non-stop, but for my pattern transformation, it is continous change in discrete steps, so a lot of boolean values are inserted in the code to guarantee the smooth control of the patterns.
+
+![updated-first-sketch](doc/sketch_1.jpg)
 
 
 
