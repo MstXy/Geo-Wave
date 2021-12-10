@@ -105,7 +105,6 @@ class Pattern {
       }
     }
   }
-
 }
 
 class Geo {
@@ -351,6 +350,7 @@ class Geo {
     }
 
   }
+  
   updateRadius(desSize) {
     let dif = desSize - this.r;
     if (abs(dif) > 0.01) {
@@ -360,8 +360,6 @@ class Geo {
       return true;
     }
   }
-
-
 }
 
 class Vertex {
