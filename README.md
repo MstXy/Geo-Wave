@@ -3,6 +3,7 @@
 Created By William Zhang [cz1627@nyu.edu](cz1627@nyu.edu)
 
 ### Project Link: https://mstxy.github.io/Geo-Wave/
+#### Slide deck: https://docs.google.com/presentation/d/1ZYtaAwAQj7HiC9fZuDV3VNFxXsYTd49T-oy5QV8pb48/edit?usp=sharing
 
 ### Abstract 
 This project uses p5.js and PoseNet in ml5.js to created an interactive geometric pattern that can be controlled through user movement. Through the interaction between basic geometries and human, this project aims to imitate how people tries to figure out the myth of nature and exploring the possibilities of the geometries to decode the nature. 
