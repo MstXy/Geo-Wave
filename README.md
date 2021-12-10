@@ -12,5 +12,12 @@ The original pattern is a hexagonal tile with white hexagon on black background.
 ![pattern_0](doc/pattern_0.png)
 The mechanisms are as such: raising the left wrist will result in the hexagonal pattern changes in one direction and raising the right wrist will result in the hexagonal pattern changes in the opposite direction. The pattern will only change while the current changing pattern has stabilized. The pattern are changed through hexagonal spreading, from the center point calculated from the middle point of the two shoulders of the user. The available patterns are circulatory, meaning that if the user keeps raising the left hand, the pattern will change back to the original pattern in the opposite order as to if the user keeps raising the right hand. If all the available patterns have been explored, then the background lo-fi music will be triggerred, and the patterns will now change automatically from a randomly calculated center point, and the order of pattern change will be controlled by a randomizer. Moreover, when the music starts playing, the background will have pulses corresponding to the amplitude of the background music.
 
+### Inspiration
+The overall inspiration is from the fact that p5.js has a complete geometry system, and everything we create using p5.js, no matter how complicated, are sort of based on these basic geometries. Similar to that, our nature, seems to also consist of basic geometries, where all complex things in the nature are no more than simple rules and simple geometries. This idea comes from the Fractal and Cellular Automata chapters of this course. In fractals, given a basic shape and a basic rule, a very complex shape could be created. For example, given one line with a length and a rule of splitting the line in two on one end within a range of angle and make some variation in the line length, a very life-like tree could be generated. In cellular automata, this idea goes even more extreme.
+
+### Tools & Design
+
+### Design
+
 
 
