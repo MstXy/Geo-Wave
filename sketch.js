@@ -66,7 +66,7 @@ function draw() {
   if (modelReady) {
     if (bgStarted) {
       let level = amplitude.getLevel();
-      let col = map(level,0,1,0,100);
+      let col = map(level,0,1,0,150);
       background(col);
     } else {
       background(0);
