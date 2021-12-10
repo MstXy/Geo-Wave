@@ -15,12 +15,13 @@ The mechanisms are as such: raising the left wrist will result in the hexagonal 
 ### Inspiration
 The overall inspiration is from the fact that p5.js has a complete geometry system, and everything we create using p5.js, no matter how complicated, are sort of based on these basic geometries. Similar to that, our nature, seems to also consist of basic geometries, where all complex things in the nature are no more than simple rules and simple geometries. This idea comes from the Fractal and Cellular Automata chapters of this course. In fractals, given a basic shape and a basic rule, a very complex shape could be created. For example, given one line with a length and a rule of splitting the line in two on one end within a range of angle and make some variation in the line length, a very life-like tree could be generated. In cellular automata, this idea goes even more extreme. By randomly exploring combinations of binary digits, discoveries that resembles real life problems and natural rules could be found. So the nature really is something intrinsitically simple but appears diversified and complicated. Therefore, through using poses to control the geometry pattern in this project, it is kind of like how ancient people tried to play around and experiment with the basic geometries and tring to get somethign extraodiary out of it.
 
-### Tools & Design
+### Tools & Design Process
 First Sketch: 
-![first_sketch](doc/draft.png)
+![first_sketch](doc/draft.jpg)
+The first sketch basically layout the elements of this project, without much viability concerns. So when I am actually implementing the draft into code, there are various issues. First issue is the transformation of individual geometric shapes. Because p5.js does not do things like automatic transition, so changing one shape into another would require a lot of careful decisions. The finally design ends up with three classes: Pattern - Geo - Vertex
+![pattern_code](doc/pattern_code.png)
 
 
-### Design
 
 
 
