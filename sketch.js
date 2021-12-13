@@ -220,9 +220,7 @@ function poseProcess() {
 }
 
 function mouseClicked() {
-  if (mouseButton === LEFT) { // reset element
-    control = 0;
-    log = [false, false, false, false, false, false, false, false, false]; // length = 9;
-    pattern = new Pattern(windowWidth,  windowHeight, margin, passSlowness);
+  if (mouseButton === LEFT) { // directly enter automatic mode
+    log = [true, true, true, true, true, true, true, true, true]; // length = 9;
   }
 }
